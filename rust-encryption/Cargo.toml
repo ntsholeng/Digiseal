@@ -4,3 +4,8 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
+aes-gcm = "0.10"  # AES-256 encryption
+rand = "0.8"
+serde = { version = "1.0", features = ["derive"] } #Serialization
+bincode = "1.3" # Binary encoding
+clap = { version = "4.0", features = ["derive"]} #CLI parsing
